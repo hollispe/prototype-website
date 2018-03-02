@@ -19,4 +19,9 @@ describe 'Prototype App' do
     expect(last_response.body).to include "Lemon Unicorn Ltd."
   end
   
+  it 'checks if the Jumbotron is working correctly' do
+    get '/'
+    expect(last_response.body).to include "How to be more agile?"
+  end
+  
 end
