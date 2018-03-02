@@ -1,4 +1,4 @@
 Prototype Website
 ===============
 
-Built by Paul Hollis
+The Best Prototype Website Ever
